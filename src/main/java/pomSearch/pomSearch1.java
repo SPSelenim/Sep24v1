@@ -66,6 +66,7 @@ public class pomSearch1 {
 	public void ClickonDevelopment() {
 		try {
 			getDevelopment().click();
+			System.out.println("CLICKED-------------------------------------------");
 			Thread.sleep(2000);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
